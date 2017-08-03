@@ -1,0 +1,230 @@
+
+body, html {
+    height: 100%;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding-left: 0;
+    font-size: 25px;
+	background-color: #c7d1d6;
+}
+
+
+.text{
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 5px;
+}
+
+.text p{
+	color: #174884;
+	text-decoration: none;
+	text-align:justify;
+	padding-right: 25%;
+	padding-left: 25%;
+
+}
+.text z{
+	color:gray;
+	font-size:15px;
+}
+.text ul{
+	color:black;	
+	text-align:left;
+	padding-right: 25%;
+	padding-left: 30%;
+}
+.text li{
+	color: #174884;
+	align-content: center;
+}
+.text ol{
+	
+}
+.text img{
+	height: 100px;
+	margin-top: 20px;
+}
+.text h4{
+	text-align:left;
+	padding-left: 25%;
+	color: #174884;
+}
+.text h1{
+	color: #b1955b;
+}
+
+h2{
+	color: #174884;
+}
+
+.text h3{
+	text-align:center;
+	color: #b1955b;
+	margin-bottom: 0px;
+}
+
+#hr{
+	width: 20%;
+	height: 15px;
+	background-color: #174884;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text1{
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	background-color: #174884;
+
+}
+.text1 img{
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0%;
+}
+.logos{
+	padding-top: 35px; 
+	width: 100%
+}
+.logos img{
+	height: 80px;
+	margin-left: 1px;
+	position: absolute;
+	margin-left:5%;
+	margin-right: auto;
+	z-index: 100;
+}
+.logos2 img{
+	height: 80px;
+	margin-left: 1px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 99;
+}
+.logos3 img{	
+	height: 70px;
+	position: absolute;
+	margin-left: 75%;
+	z-index: 98;
+
+}
+.logos4 img{
+	height: 100px;
+	margin-left: 1px;
+	position: absolute;
+	margin-left:10%;
+	margin-right: auto;
+	z-index: 100;
+}
+.logos5 img{
+	height: 100px;
+	margin-left: 1px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 99;
+}
+.logos6 img{	
+	height: 70px;
+	position: absolute;
+	margin-left: 70%;
+	z-index: 98;
+
+}
+.menu{
+	margin: 0;
+	background-color: #174884;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	
+}
+.menu a{
+	color: #b1945b;
+}
+.tabla{
+	width:100%;
+	}
+
+@media screen and (max-width: 1024px) {
+	.logos img, .logos2 img, .logos3 img{
+		height: 60px;
+	}
+	.text img{
+		height: 60px;
+	}
+}
+@media screen and (max-width: 720px) {
+	.logos img, .logos2 img, .logos3 img{
+		padding-top: 30px;
+		height: 40px;
+	}
+	.logos4 img, .logos5 img{
+			height: 60px;
+	}
+	.logos6 img{
+		height: 50px;
+		margin-right: px;
+	}
+	.logotipo{
+	position: fixed;
+	align-content: left;
+	bottom: 85px;
+	right: 0px;
+	z-index: 90;
+}
+	.text img{
+		height: 60px;
+	}
+}
+@media screen and (max-width: 560px) {
+	body, html {
+    height: 100%;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
+    font-size: 10px;
+	}
+	.text img{
+		height: 50px;
+		
+	}
+		.text z{
+			color: gray;
+			font-size: 8px;
+		}
+	.text1{
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	}
+		.text1 img{
+			height: 100px;
+		}
+	.logos img, .logos2 img, .logos3 img{
+		margin-top: -50px;
+		height: 30px;
+	}
+	
+	.logos4 img, .logos5 img{
+			height: 60px;
+	}
+	
+	.logos6 img{
+		height: 50px;
+		margin-right: px;
+	}
+
+	#hr{
+	height: 5px;
+	}
+}
